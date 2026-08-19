@@ -4,6 +4,9 @@ A landing page for a fictional analog photography studio, built to practice Reac
 
 Shoot on film, develop by hand, print in the enlarger room. LATENT runs five-week darkroom cohorts, and this is its marketing site: a hero countdown to the next session, a four-stage breakdown of the development process, and a flip-card glossary of darkroom terms.
 
+
+project link: https://illustrious-vacherin-6cdc42.netlify.app
+
 ## Tech stack
 
 | | |
