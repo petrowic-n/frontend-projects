@@ -1,13 +1,24 @@
 import Navbar from "./components/Navbar";
-import "./index.css";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import ProcessSection from "./components/ProcessSection";
+import GlossaryDeck from "./components/GlossaryDeck";
+import CTASection from "./components/CTASection";
+import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
-    <>
-      <div className="grain"></div>
+    <div className="relative min-h-screen">
+      <div className="grain" />
       <Navbar />
-    </>
+      <main>
+        <Hero />
+        <About />
+        <ProcessSection />
+        <GlossaryDeck />
+        <CTASection />
+      </main>
+      <Footer />
+    </div>
   );
 }
-
-export default App;
